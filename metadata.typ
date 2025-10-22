@@ -22,10 +22,10 @@
 #let godina = [#datetime.today().year()]
 
 // FIXME: Аутоматизовати бројање цитата и прилога
-// За сада унети ручно број референци из поглавља Литература.
+// За сада унети ручно број референци/цитата из поглавља Литература.
 #let broj_citata = 4
 // Такође унети ручно и број прилога.
-#let broj_priloga = 0
+#let broj_priloga = 2
 
 #let kljucne_reci = "Шаблон, завршни рад, упутство"
 #let apstrakt = [
@@ -46,9 +46,8 @@
      #lorem(100)
 ]
 
-// Одбрана
+// TODO: Датум одбране и чланове комисије добијате од ментора
 #let datum_odbrane = "01.01.2025"
-// Комисија
 #let komisija_predsednik = "Петар Петровић"
 #let komisija_predsednik_zvanje = "ванредни професор"
 #let komisija_clan = "Марко Марковић"
