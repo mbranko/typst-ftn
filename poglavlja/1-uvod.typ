@@ -232,7 +232,7 @@ typst fonts | grep -i liberation
   стандардне компајлерске архитектуре.
   ]
 
-  #figure([#box(width: auto, image("../slike/pyflies-arhitektura.png"));],
+  #figure(image("../slike/pyflies-arhitektura.png", width: auto),
     caption: [
       PyFlies архитектура.
     ]
