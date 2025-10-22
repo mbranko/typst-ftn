@@ -78,7 +78,7 @@ typst watch zavrsni-rad.typ
 
 Отворите PDF фајл `zavrsni-rad.pdf` у неком од прегледача који освежава приказ
 на сваку промену без губљења позиције (нпр.
-Okular#footnote[https://okular.kde.org/]). Сада у вашем текстуалном едитору
+Okular#footnote[https://okular.kde.org/] или Sumatra PDF#footnote[https://www.sumatrapdfreader.org/free-pdf-reader]). Сада у вашем текстуалном едитору
 мењајте `.typ` фајлове. Видећете да се PDF приказ готово тренутно ажурира.
 
 === Фонтови
