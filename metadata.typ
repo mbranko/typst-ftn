@@ -1,23 +1,22 @@
 #let format_strane = "iso-b5"         // могуће вредности: iso-b5, a4
-#let naslov = "Шаблон и упутство за писање завршних радова"
+#let naslov = "Наслов дипломског рада"
 #let autor = "Уписати име и презиме"
 
 // На енглеском
-#let naslov_eng = "Template and tutorial for thesis preparation"
+#let naslov_eng = "Thesis Title in English"
 #let autor_eng = "Upisati ime i prezime na latinici"
 
 #let indeks = "Уписати индекс"
 
 // Име и презиме ментора
-#let mentor = "Игор Дејановић"
+#let mentor = "Бранко Милосављевић"
 // Звање: редовни професор, ванредни професор, доцент
 #let mentor_zvanje = "редовни професор"
 
 // Скинути коментаре са одговарајућих линија
 #let studijski_program = "Софтверско инжењерство и информационе технологије"
-//#let studijski_program = "Рачунарство и аутоматика"
-#let stepen = "Мастер академске студије"
-//#let stepen = "Основне академске студије"
+#let stepen = "Основне академске студије"
+//#let stepen = "Мастер академске студије"
 
 #let godina = [#datetime.today().year()]
 
@@ -27,18 +26,15 @@
 // Такође унети ручно и број прилога.
 #let broj_priloga = 2
 
-#let kljucne_reci = "Шаблон, завршни рад, упутство"
+#let kljucne_reci = "Кључне речи везане за тему дипломског рада"
 #let apstrakt = [
-     Овај документ представља упутство за писање завршних радова на Факултету
-     техничких наука Универзитета у Новом Саду. У исто време је и шаблон за Typst.
+     Овде навести кратак апстракт дипломског рада у пар реченица.
 ]
 
 // На енглеском
 #let kljucne_reci_eng = "Template, thesis, tutorial"
 #let apstrakt_eng = [
-     This document provides guidelines for writing final theses at the Faculty
-     of Technical Sciences, University of Novi Sad. At the same time, it serves
-     as a Typst template.
+     Please provide a short abstract of the thesis in a couple of sentences.
 ]
 
 // TODO: Текст задатка добијате од ментора. Заменити доле #lorem(100) са текстом задатка.
@@ -48,15 +44,15 @@
 
 // TODO: Датум одбране и чланове комисије добијате од ментора
 #let datum_odbrane = "01.01.2025"
-#let komisija_predsednik = "Петар Петровић"
-#let komisija_predsednik_zvanje = "ванредни професор"
-#let komisija_clan = "Марко Марковић"
-#let komisija_clan_zvanje = "доцент"
+#let komisija_predsednik = "Горан Сладић"
+#let komisija_predsednik_zvanje = "редовни професор"
+#let komisija_clan = "Мирослав Зарић"
+#let komisija_clan_zvanje = "редовни професор"
 
 // На енглеском уписати чланове на латиници
-#let komisija_predsednik_eng = "Petar Petrović"
-#let komisija_clan_eng = "Marko Marković"
-#let mentor_eng = "Igor Dejanović"
+#let komisija_predsednik_eng = "Goran Sladić"
+#let komisija_clan_eng = "Miroslav Zarić"
+#let mentor_eng = "Branko Milosavljević"
 
 
 // Ово даље углавном не треба мењати.
